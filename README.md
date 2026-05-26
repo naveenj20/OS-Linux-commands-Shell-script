@@ -779,10 +779,14 @@ echo “Sorry, the object does not exist”
 fi
 ```
 
+<img width="583" height="473" alt="image" src="https://github.com/user-attachments/assets/100e1d92-1f06-44e9-b470-9f382bbc9da2" />
+
+
 $ chmod 755 ifnested.sh
  
 $ ./ifnested.sh 
 ##OUTPUT
+<img width="667" height="199" alt="image" src="https://github.com/user-attachments/assets/83150867-ba69-4a76-8ab9-ae2c82e81348" />
 
 # looking for a possible value using elif
 cat elifcheck.sh 
@@ -806,11 +810,14 @@ else
 echo "Sorry, you are not allowed here"
 fi
 ```
+<img width="633" height="553" alt="image" src="https://github.com/user-attachments/assets/b056c870-584d-4a8e-899c-04a2a1f4eb74" />
+
 
 $ chmod 755 elifcheck.sh
  
 $ ./elifcheck.sh 
 ## OUTPUT
+<img width="687" height="207" alt="image" src="https://github.com/user-attachments/assets/1053059e-b7cf-4d54-b5f7-f0d38b1ea136" />
 
 
 # testing compound comparisons
@@ -824,9 +831,14 @@ else
 echo "I cannot write to the file"
 fi
 ```
+<img width="549" height="274" alt="image" src="https://github.com/user-attachments/assets/0ac22972-9c32-4e90-aaf4-8777669820a7" />
+
+
 $ chmod 755 ifcompound.sh
 $ ./ifcompound.sh 
 ## OUTPUT
+<img width="692" height="199" alt="image" src="https://github.com/user-attachments/assets/a4e7ef32-856e-4c03-9b0b-81a763ed4765" />
+
 
 # using the case command
 cat >casecheck.sh 
@@ -843,10 +855,14 @@ echo "$USER, Do not forget to log off when you're done";;
 echo "Sorry, you are not allowed here";;
 esac
 ```
+<img width="620" height="368" alt="image" src="https://github.com/user-attachments/assets/c5b1c158-e5bf-471f-87b1-6624c4b2d353" />
+
 $ chmod 755 casecheck.sh 
  
 $ ./casecheck.sh 
 ## OUTPUT 
+<img width="373" height="126" alt="image" src="https://github.com/user-attachments/assets/7afe7f86-3a0b-442e-86d0-2ecef9df6a47" />
+
 
 cat > whiletest.sh
 ```bash
@@ -859,10 +875,13 @@ echo $var1
 var1=$[ $var1 - 1 ]
 done
 ```
+<img width="382" height="241" alt="image" src="https://github.com/user-attachments/assets/af4fcd59-9d03-4b12-8c2b-8bd5a9f89f37" />
+
 $ chmod 755 whiletest.sh
  
 $ ./whiletest.sh
 ## OUTPUT 
+<img width="465" height="349" alt="image" src="https://github.com/user-attachments/assets/ba699ab5-e0bf-427a-b89d-2159d0b89094" />
 
 
 cat untiltest.sh 
@@ -874,11 +893,14 @@ do
 echo $var1
 var1=$[ $var1 - 25 ]
 done
-``` 
+```
+<img width="376" height="218" alt="image" src="https://github.com/user-attachments/assets/babf1daa-58bc-420b-98da-75305a1c48cc" />
+
 $ chmod 755 untiltest.sh
  
  ./utiltest.sh
  ## Output
+<img width="549" height="227" alt="image" src="https://github.com/user-attachments/assets/0d604579-e547-4ae6-b14c-19cf80d5b0d1" />
 
  
 cat forin1.sh 
@@ -890,13 +912,15 @@ do
 echo The next state is $test
 done
  ```
- 
+ <img width="679" height="202" alt="image" src="https://github.com/user-attachments/assets/a6f56684-0fcc-474a-b173-76082329a53a" />
+
 $ chmod 755 forin1.sh
  
 ./forin1.sh
 
 ## Output
 
+<img width="694" height="304" alt="image" src="https://github.com/user-attachments/assets/a6978693-35ae-44a0-94a9-bc90a693c31f" />
 
 cat forin2.sh 
 ```bash
@@ -908,6 +932,7 @@ echo “word:$test”
 done
  ```
 
+
 cat forin2.sh 
 ```bash
 \#!/bin/bash
@@ -917,11 +942,15 @@ do
 echo “word:$test”
 done
 ```
+
+<img width="654" height="203" alt="image" src="https://github.com/user-attachments/assets/44f64ddf-4ce1-4d9f-8107-b1475066e377" />
+
 $ chmod 755 forin2.sh
  
 $ ./forin2.sh 
 
 ## Output
+<img width="628" height="223" alt="image" src="https://github.com/user-attachments/assets/a8318d08-cb48-499e-bc43-f68a23ff190e" />
 
 
 cat forin3.sh 
@@ -935,7 +964,12 @@ done
 ```
 $ ./forin3.sh 
 
+<img width="638" height="202" alt="image" src="https://github.com/user-attachments/assets/e719fd5e-d8c0-4c9e-9d79-924fb23829b4" />
+
+
 ## Output
+
+<img width="701" height="303" alt="image" src="https://github.com/user-attachments/assets/8cafb469-8621-4ef8-929d-deeaaef7e6b5" />
 
 
 
@@ -949,6 +983,9 @@ do
 echo "Visit beautiful $file“
 done
 ```
+
+<img width="452" height="224" alt="image" src="https://github.com/user-attachments/assets/94da23a7-2f23-4045-b7bf-51ee0e47a3da" />
+
 $ chmod 777 forinfile.sh
 $ cat cities
 Hyderabad
@@ -961,6 +998,8 @@ Khammam
 
 ## OUTPUT
 
+<img width="408" height="200" alt="image" src="https://github.com/user-attachments/assets/e0698b74-7109-4026-84a9-aa32aa15e0db" />
+
 
 cat forctype.sh 
 ```bash
@@ -971,9 +1010,13 @@ do
 echo "The value of i is $i"
 done
 ````
+
+<img width="326" height="189" alt="image" src="https://github.com/user-attachments/assets/04de2de3-1f7b-4dbb-9bec-881ed34d1ffd" />
+
 $ chmod 755 forctype.sh
 $ ./forctype.sh 
 ## OUTPUT
+<img width="348" height="223" alt="image" src="https://github.com/user-attachments/assets/b9fb9b8d-0a5e-4ff2-af97-6d33a525147a" />
 
 cat forctype1.sh 
 ```bash
@@ -984,9 +1027,12 @@ do
 echo "$a - $b"
 done
 ```
+<img width="487" height="203" alt="image" src="https://github.com/user-attachments/assets/6c76a562-6b6e-4eb4-a1f0-8e60e4891944" />
+
 $ chmod 755 forctype.sh
 $ ./forctype1.sh 
 ## OUTPUT
+<img width="319" height="179" alt="image" src="https://github.com/user-attachments/assets/9017f648-6819-416b-bd61-e54fdf5a2ac4" />
 
 cat fornested1.sh 
 ```bash
@@ -1001,10 +1047,13 @@ echo " Inside loop: $b"
 done
 done
 ```
+<img width="365" height="304" alt="image" src="https://github.com/user-attachments/assets/364353fa-1eb3-4beb-8389-7066be2cb9d3" />
+
 $ chmod 755 fornested1.sh
  
 $ ./fornested1.sh 
  ## OUTPUT
+<img width="385" height="349" alt="image" src="https://github.com/user-attachments/assets/621ba0a8-44db-49de-8343-9e454881e00b" />
 
  
 cat forbreak.sh 
@@ -1021,13 +1070,17 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
+
+
 ## OUTPUT
+<img width="459" height="326" alt="image" src="https://github.com/user-attachments/assets/3738aa8b-b8ed-4f70-8a19-3094cb0d4516" />
 
 $ chmod 755 forbreak.sh
  
 $ ./forbreak.sh 
 
 ## Output
+<img width="721" height="177" alt="image" src="https://github.com/user-attachments/assets/9c341919-bbd6-48d8-8731-03645b7ba9d9" />
 
  
 cat forcontinue.sh 
@@ -1044,12 +1097,14 @@ echo "Iteration number: $var1"
 done
 echo "The for loop is completed“
 ```
+<img width="565" height="324" alt="image" src="https://github.com/user-attachments/assets/c35e9be6-1826-41c2-a97d-b037b9550aa2" />
 
  
 $ chmod 755 forcontinue.sh
  
 $ ./forcontinue.sh 
 ## OUTPUT
+<img width="748" height="229" alt="image" src="https://github.com/user-attachments/assets/8fdc3858-1139-4ebd-9000-6559f4c473ac" />
 
 cat exread.sh 
 ```bash
@@ -1059,11 +1114,13 @@ echo -n "Enter your name: "
 read name
 echo "Hello $name, welcome to my program. "
  ```
- 
+ <img width="607" height="185" alt="image" src="https://github.com/user-attachments/assets/34b47d02-c182-44cc-9118-a537fb863bf0" />
+
 $ chmod 755 exread.sh 
  
 $ ./exread.sh 
 ## OUTPUT
+<img width="452" height="157" alt="image" src="https://github.com/user-attachments/assets/b7b4585c-a002-4320-a0c1-5bc1904d339a" />
 
 
  cat exread1.sh
@@ -1072,13 +1129,16 @@ $ ./exread.sh
 # testing the read command
 read -p "Enter your name: " name
 echo "Hello $name, welcome to my program. “
-``` 
+```
+<img width="569" height="150" alt="image" src="https://github.com/user-attachments/assets/4a0058f3-3fa6-4d82-846b-14004a0cf4e3" />
+
 $ chmod 755 exread1.sh 
 
 $ ./exread1.sh
 
 ## OUTPUT
 
+<img width="437" height="54" alt="image" src="https://github.com/user-attachments/assets/d3c139b0-5abf-4edb-b430-68d198b95636" />
 
  
 cat funcex.sh
@@ -1096,13 +1156,17 @@ else
 echo "Usage: badtest1 a b"
 fi
 ```
+<img width="680" height="351" alt="image" src="https://github.com/user-attachments/assets/2bcf5674-e1f2-46c4-9acf-b4279f725a42" />
+
 ## OUTPUT
  ./funcex.sh 
+<img width="361" height="185" alt="image" src="https://github.com/user-attachments/assets/e8f70b07-4fbb-4cbb-abc3-50bda5cb1911" />
 
  
  ./funcex.sh 1 2
 
- 
+ <img width="306" height="120" alt="image" src="https://github.com/user-attachments/assets/b7a5d7fb-3897-44a2-885b-285ba09a8914" />
+
 cat argshift.sh
 ```bash
 #!/bin/bash 
@@ -1111,10 +1175,14 @@ cat argshift.sh
   shift 
 done
 ```
+<img width="310" height="171" alt="image" src="https://github.com/user-attachments/assets/d66b806c-8eb9-409a-9347-655c84f9acd4" />
+
 $ chmod 777 argshift.sh
 
 ## OUTPUT
 $ ./argshift.sh 1 2 3
+
+<img width="322" height="125" alt="image" src="https://github.com/user-attachments/assets/1cf33db1-ea11-46ef-b361-2e01568c4c11" />
 
 
  cat argshift1.sh
@@ -1130,9 +1198,12 @@ for (( i=0;i<$ELEMENTS;i++)); do
     echo ${args[${i}]} 
 done
 ```
+<img width="505" height="294" alt="image" src="https://github.com/user-attachments/assets/81f35d4d-e9b2-41b5-95cc-3726eb9e6c96" />
+
 $ chmod 777 argshift1.sh
 ## OUTPUT
 $ ./argshift1.sh 1 2 3
+<img width="411" height="169" alt="image" src="https://github.com/user-attachments/assets/370cf794-5672-4747-ada9-4baa6142cba6" />
 
 
 cat > argshift.sh
@@ -1145,8 +1216,12 @@ while (( "$#" )); do
 done
 set +x
 ```
+
+<img width="503" height="301" alt="image" src="https://github.com/user-attachments/assets/382cde1d-b1f2-4046-bb60-2fbf75cc5b2c" />
+
 ## OUTPUT
  ./argshift.sh 1 2 3
+<img width="483" height="449" alt="image" src="https://github.com/user-attachments/assets/46ebc91a-2f5e-4c9d-bca3-9ee5ee7320bf" />
  
  
 cat > nc.awk
@@ -1163,6 +1238,8 @@ print "Number of Lines are",NR
 print "No of Words count:",wordcount
 }
  ```
+<img width="471" height="319" alt="image" src="https://github.com/user-attachments/assets/c50be7ab-44bc-4c11-ac65-a36570229ea8" />
+
 cat>data.dat
 ```bash
 bcdfghj
@@ -1176,8 +1253,13 @@ obcdfghj
 bcdfghj
 ubcdfghj
 ```
+<img width="406" height="294" alt="image" src="https://github.com/user-attachments/assets/da08efcd-36ad-4133-ac8a-ae367e878d6f" />
+
+
+
 awk -f nc.awk data.dat
 ## OUTPUT 
+<img width="512" height="375" alt="image" src="https://github.com/user-attachments/assets/64d299a9-be99-43c9-95a0-1a9ffb0cb95a" />
 
 
 
@@ -1206,7 +1288,10 @@ else
 	echo "Number is NOT palindrome"
 fi
 ```
+<img width="638" height="573" alt="image" src="https://github.com/user-attachments/assets/859c34dc-f8ef-4e19-b756-a1a6c0d6c7aa" />
+
 ## OUTPUT 
+<img width="505" height="304" alt="image" src="https://github.com/user-attachments/assets/adca3444-629a-4329-b124-8d6360c5f89e" />
 
 
 # RESULT:
