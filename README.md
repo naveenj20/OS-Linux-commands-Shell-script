@@ -476,6 +476,8 @@ chmod 755 my-script.sh
 ./my-script.sh
 ## OUTPUT
 
+<img width="323" height="345" alt="image" src="https://github.com/user-attachments/assets/b908dd37-294c-4158-97fb-10e5c0bfc2a5" />
+
  
 cat << stop > herecheck.txt
 ```
@@ -487,6 +489,8 @@ stop
 
 cat herecheck.txt
 ## OUTPUT
+
+<img width="396" height="279" alt="image" src="https://github.com/user-attachments/assets/8bf14759-e6a8-4263-b119-e21bc52d250c" />
 
 
 cat < scriptest.sh 
@@ -505,6 +509,8 @@ ps
 ^d
  ```
 
+
+
 cat scriptest.sh 
 ```bash
 \#!/bin/sh
@@ -519,6 +525,9 @@ echo 'The $\# is ' $\#
 echo 'The $$ is ' $$
 ps
 ```
+
+<img width="376" height="330" alt="image" src="https://github.com/user-attachments/assets/89ce9fc9-57c5-4b15-a82e-0d7d9b0bc8e4" />
+
  
 chmod 777 scriptest.sh
  
@@ -526,12 +535,19 @@ chmod 777 scriptest.sh
 
 ## OUTPUT
 
+<img width="648" height="448" alt="image" src="https://github.com/user-attachments/assets/3c978476-08fc-44b0-b38c-e77832322812" />
+
  
 ls file1
 ## OUTPUT
 
+<img width="234" height="78" alt="image" src="https://github.com/user-attachments/assets/0fdc5223-bf64-48ab-a9f3-b8f5a3509dbc" />
+
+
 echo $?
 ## OUTPUT 
+
+<img width="295" height="68" alt="image" src="https://github.com/user-attachments/assets/8ee896fe-e71f-4ba7-95d7-a6c6f5f56aab" />
 
 
 ./one
@@ -540,13 +556,15 @@ bash: ./one: Permission denied
 echo $?
 ## OUTPUT 
 
+<img width="295" height="68" alt="image" src="https://github.com/user-attachments/assets/8ee896fe-e71f-4ba7-95d7-a6c6f5f56aab" />
+
 abcd
 
  
 echo $?
  ## OUTPUT
 
-
+<img width="295" height="68" alt="image" src="https://github.com/user-attachments/assets/8ee896fe-e71f-4ba7-95d7-a6c6f5f56aab" />
  
 # mis-using string comparisons
 
@@ -578,12 +596,14 @@ fi
 ```
 ##OUTPUT
 
+<img width="396" height="276" alt="image" src="https://github.com/user-attachments/assets/fd6e0ff4-d3a9-436b-9027-28cc64b58486" />
 
 
 chmod 755 strcomp.sh
  
 ./strcomp.sh 
 ## OUTPUT
+<img width="643" height="98" alt="image" src="https://github.com/user-attachments/assets/8a785057-f8af-4c43-94c7-8b0d8283d0a6" />
 
 
 # check file ownership
@@ -608,9 +628,14 @@ echo “You are the owner of the /etc/passwd file”
 else
 echo “Sorry, you are not the owner of the /etc/passwd file”
 fi
+
  ```
+<img width="608" height="226" alt="image" src="https://github.com/user-attachments/assets/4e6f5919-9452-4f25-aab2-c807a68dd4af" />
+
+
 ./psswdperm.sh
 ## OUTPUT
+<img width="714" height="99" alt="image" src="https://github.com/user-attachments/assets/4c8c88cc-b679-4288-aa78-461313f2f3b0" />
 
 # check if with file location
 cat>ifnested.sh 
@@ -655,9 +680,13 @@ echo “Sorry, the object does not exist”
 fi
 ```
 
+<img width="483" height="476" alt="image" src="https://github.com/user-attachments/assets/2ff8c78e-e2a0-49fd-acd9-98f0bee6e368" />
+
+
 ./ifnested.sh 
 ## OUTPUT
 
+<img width="717" height="152" alt="image" src="https://github.com/user-attachments/assets/329f7109-5fdd-4954-b874-37eea2949fa1" />
 
 
 # using numeric test comparisons
@@ -697,10 +726,14 @@ echo “The values are different”
 fi
 ```
 
+<img width="616" height="368" alt="image" src="https://github.com/user-attachments/assets/15775690-3bb6-4cb2-a386-65f932456897" />
+
+
 $ chmod 755 iftest.sh
  
 $ ./iftest.sh 
 ##OUTPUT
+<img width="665" height="125" alt="image" src="https://github.com/user-attachments/assets/88a9321e-c11c-459f-87c7-c0692cf64d27" />
 
 # check if a file
 cat > ifnested.sh 
